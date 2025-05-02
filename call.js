@@ -20,6 +20,23 @@ let fulInformation=function(hometown,company){
 fulInformation.call(name,"Delhi", "Amazon")
 
 
+
+/**
+ * bUT if we see other example here that is arrow function
+ * arrow function , in which when "this" keyword is use , it will refer to parent scope 
+ * 
+ * Example:
+ */
+const foo=()=>{
+    console.log(this.name)
+ }
+
+ foo.call({name:'John'})
+
+ //The output is undefined as here this refer to global object which is window here
+ //but if we change to normal function it will give John
+
+//---------------------------------------------------------------------------------------------------------------------------------
 //Apply method 
 //This also doingb the same work but the difference is when in apply we are passing the arguments , we need
 //to pass the array list 
