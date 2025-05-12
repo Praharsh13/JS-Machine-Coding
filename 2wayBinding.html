@@ -1,0 +1,52 @@
+/**
+ * Two way binding in js means
+ * when data change in model it change UI
+ * when UI changes , data , model also get change
+ */
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object.defineProperty</title>
+</head>
+<body>
+    <input type="text" id="valueInput">
+    <p id="valueDisplay"></p>
+
+    <script>
+        const dataInput=document.getElementById("valueInput")
+        const dataDisplay=document.getElementById("valueDisplay")
+
+
+        const user={
+            name:" "
+        }
+
+        Object.defineProperty(user,'namr',{
+            get(){
+                return dataInput.value
+                
+            },
+            set(value){
+
+                dataInput.value=value
+
+                dataDisplay.innerText=value
+
+            }
+        })
+
+        dataInput.addEventListener('input',(e)=>{
+            user.name=e.target.value
+        })
+
+        user.name="Praharsh"
+
+
+    </script>
+
+</body>
+</html>
