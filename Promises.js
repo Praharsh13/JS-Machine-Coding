@@ -17,7 +17,7 @@ fs.readFile('./hello.txt','utf-8',function(err,content){
         if(err){
             console.log("Error in writing backup", err)
         }else{
-            fs.unlink('./hello.txt',function(e){
+            fs.unlink('./he777llo.txt',function(e){
                 if(e){
                     console.log("Error in deleting file",e)
                 }
