@@ -1,23 +1,74 @@
-# JS Machine Coding Concepts
+# JS Machine Coding & Interview Practice
 
-This folder contains JavaScript code implementations demonstrating new concepts and machine coding challenges. The project focuses on JavaScript concepts like **bind**, **apply**, their **polyfills**, and **Proxy**.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![Node.js](https://img.shields.io/badge/Node.js-20.x-green)
+![Interview Prep](https://img.shields.io/badge/Interview-Preparation-blue)
+![Machine Coding](https://img.shields.io/badge/Machine-Coding-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-## Concepts Covered
+This repository contains JavaScript **machine-coding implementations and interview practice** focused on core concepts that are frequently asked in **frontend and full-stack interviews**.
 
-### 1. **bind()**:
-   - The `bind()` method is used to create a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+The goal is to strengthen JavaScript fundamentals by **writing logic from scratch**, understanding how things work internally, and being able to **explain solutions clearly during interviews**.
 
-### 2. **apply()**:
-   - The `apply()` method is similar to `call()`, but the difference lies in how arguments are passed. The `apply()` method takes an array or array-like object of arguments.
+---
 
-### 3. **Polyfills for `bind()` and `apply()`**:
-   - These polyfills allow us to implement the `bind()` and `apply()` methods in environments that might not support them (e.g., older versions of JavaScript).
+## What This Repository Covers
 
-### 4. **Proxy**:
-   - The `Proxy` object enables you to create a handler for an object and intercept operations like property access, assignment, function calls, etc.
+This project focuses on **real interview questions**, not just theory.
 
-## Project Setup
+### Core JavaScript Concepts
+- Closures and lexical scope  
+- `this` keyword and execution context  
+- Hoisting and temporal dead zone  
+- Event loop, microtasks, and macrotasks  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Praharsh13/JS-Machine-Coding.git
+### Function Methods
+- `call()`, `apply()`, and `bind()`  
+- Polyfills for `call`, `apply`, and `bind`  
+- Function context and argument handling  
+
+### Promises & Async JavaScript
+- Promises from scratch  
+- `async` / `await`  
+- Error handling in asynchronous flows  
+- Retry and timeout patterns in API calls  
+
+### Objects & Advanced Concepts
+- `Proxy` and handler traps  
+- Intercepting property access and updates  
+- Practical use cases like validation and logging  
+
+### Machine Coding Focus
+- Writing clean, interview-ready code  
+- Avoiding unnecessary libraries  
+- Explaining **why** and **how** each solution works  
+
+---
+
+## Purpose of This Repository
+
+- Practise **commonly asked JavaScript interview questions**  
+- Prepare for **machine-coding rounds**  
+- Build confidence in **JavaScript internals**  
+- Revise concepts quickly before interviews  
+
+---
+
+## How to Use This Repository
+
+- Run the code locally and experiment  
+- Modify implementations to test edge cases  
+- Practise explaining the logic out loud  
+- Use it as a **revision guide before interviews**  
+
+---
+
+## Who This Is For
+
+- Frontend developers preparing for interviews  
+- Full-stack developers revising JavaScript fundamentals  
+- Anyone looking to improve machine-coding skills  
+
+---
+
+This repository follows a **hands-on learning approach**, focusing on practical understanding rather than memorisation.

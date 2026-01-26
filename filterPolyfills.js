@@ -39,3 +39,23 @@ let filteredArray=arr.myFilter((element)=>{
 })
 
 console.log(`Filtered array is ${filteredArray}`)
+
+
+
+
+let aqrray= [1,2,3,4,5,6]
+
+Array.prototype.mynewFilter=(fn)=>{
+
+    let arr2=[]
+    for(i=0;i<aqrray.length;i++){
+        let v= fn(aqrray[i])
+
+        if(v){
+            arr2.push(v)
+        }
+    }
+
+
+
+}
